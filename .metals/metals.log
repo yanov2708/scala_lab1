@@ -1519,3 +1519,107 @@ WARNING: Unmatched cancel notification for request id 397
 2022.06.23 23:22:25 INFO  time: compiled root-test in 0.19s[0m
 2022.06.23 23:22:29 INFO  compiling root-test (1 scala source)[0m
 2022.06.23 23:22:29 INFO  time: compiled root-test in 0.15s[0m
+2022.06.23 23:30:16 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 23:30:16 INFO  time: compiled root-test in 0.33s[0m
+2022.06.23 23:30:43 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 26m 46.829s)[0m
+2022.06.23 23:30:43 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 26m 46.856s)[0m
+2022.06.23 23:30:43 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 23:30:43 WARN  Expression evaluation will not work.[0m
+2022.06.23 23:30:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 23:30:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 23:30:44 INFO  Starting debug proxy for [MySuite(indexOf)][0m
+2022.06.23 23:30:43 INFO  Trying to attach to remote debuggee VM localhost:37557 .[0m
+2022.06.23 23:30:43 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 23:30:44 INFO  Canceling debug proxy for [MySuite(indexOf)][0m
+2022.06.23 23:30:44 INFO  Closing debug server tcp://0.0.0.0:32817[0m
+2022.06.23 23:33:15 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 23:33:15 INFO  time: compiled root-test in 0.29s[0m
+2022.06.23 23:33:18 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 29m 21.255s)[0m
+2022.06.23 23:33:18 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 29m 21.271s)[0m
+2022.06.23 23:33:18 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 23:33:18 WARN  Expression evaluation will not work.[0m
+2022.06.23 23:33:18 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 23:33:18 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 23:33:18 INFO  Starting debug proxy for [MySuite()][0m
+2022.06.23 23:33:18 INFO  Trying to attach to remote debuggee VM localhost:46245 .[0m
+2022.06.23 23:33:18 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 23:33:18 INFO  Canceling debug proxy for [MySuite()][0m
+2022.06.23 23:33:19 INFO  Closing debug server tcp://0.0.0.0:38611[0m
+2022.06.23 23:35:28 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 23:35:28 INFO  time: compiled root-test in 0.3s[0m
+2022.06.23 23:35:30 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 31m 33.456s)[0m
+2022.06.23 23:35:30 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 31m 33.473s)[0m
+2022.06.23 23:35:30 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 23:35:30 WARN  Expression evaluation will not work.[0m
+2022.06.23 23:35:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 23:35:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 23:35:30 INFO  Starting debug proxy for [MySuite(reverseReverse)][0m
+2022.06.23 23:35:30 INFO  Trying to attach to remote debuggee VM localhost:40065 .[0m
+2022.06.23 23:35:30 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 23:35:30 INFO  Canceling debug proxy for [MySuite(reverseReverse)][0m
+2022.06.23 23:35:31 INFO  Closing debug server tcp://0.0.0.0:43457[0m
+2022.06.23 23:35:36 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 31m 39.859s)[0m
+2022.06.23 23:35:36 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 31m 39.872s)[0m
+2022.06.23 23:35:36 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 23:35:36 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 23:35:36 INFO  time: compiled root-test in 0.33s[0m
+2022.06.23 23:35:36 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 23:35:36 WARN  Expression evaluation will not work.[0m
+2022.06.23 23:35:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 23:35:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 23:35:37 INFO  Starting debug proxy for [MySuite(reverseReverse)][0m
+2022.06.23 23:35:36 INFO  Trying to attach to remote debuggee VM localhost:46567 .[0m
+2022.06.23 23:35:36 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 23:35:37 INFO  Canceling debug proxy for [MySuite(reverseReverse)][0m
+2022.06.23 23:35:38 INFO  Closing debug server tcp://0.0.0.0:40003[0m
+2022.06.23 23:35:47 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 31m 50.445s)[0m
+2022.06.23 23:35:47 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 31m 50.467s)[0m
+2022.06.23 23:35:47 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 23:35:47 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 23:35:47 INFO  time: compiled root-test in 0.31s[0m
+2022.06.23 23:35:47 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 23:35:47 WARN  Expression evaluation will not work.[0m
+2022.06.23 23:35:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 23:35:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 23:35:47 INFO  Starting debug proxy for [MySuite(reverseReverse)][0m
+2022.06.23 23:35:47 INFO  Trying to attach to remote debuggee VM localhost:41027 .[0m
+2022.06.23 23:35:47 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 23:35:47 INFO  Canceling debug proxy for [MySuite(reverseReverse)][0m
+2022.06.23 23:35:48 INFO  Closing debug server tcp://0.0.0.0:46355[0m
+2022.06.23 23:36:02 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 32m 5.788s)[0m
+2022.06.23 23:36:02 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 23:36:02 WARN  Expression evaluation will not work.[0m
+2022.06.23 23:36:02 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 23:36:02 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 23:36:03 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 23:36:02 INFO  Trying to attach to remote debuggee VM localhost:37917 .[0m
+2022.06.23 23:36:02 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 23:36:03 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 23:36:02 INFO  Closing debug server tcp://0.0.0.0:37745[0m
+2022.06.23 23:40:49 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 23:40:49 INFO  time: compiled root-test in 0.29s[0m
+2022.06.23 23:40:50 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 36m 54.152s)[0m
+2022.06.23 23:40:50 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 36m 54.16s)[0m
+2022.06.23 23:40:50 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 23:40:50 WARN  Expression evaluation will not work.[0m
+2022.06.23 23:40:51 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 23:40:51 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 23:40:51 INFO  Starting debug proxy for [MySuite(map*)][0m
+2022.06.23 23:40:50 INFO  Trying to attach to remote debuggee VM localhost:33269 .[0m
+2022.06.23 23:40:50 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 23:40:52 INFO  Closing debug server tcp://0.0.0.0:43397[0m
+2022.06.23 23:40:51 INFO  Canceling debug proxy for [MySuite(map*)][0m
