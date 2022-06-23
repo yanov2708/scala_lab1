@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/labbbb_1_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyList$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/MyList$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyList$MyCons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/MyList$MyCons.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyList.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/MyList.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/MyList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/MyList$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/Main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/Main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/Main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	MyList$MyCons$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/yanov2708/dev/labbbb_1/target/scala-3.1.3/classes/MyList$MyCons$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
