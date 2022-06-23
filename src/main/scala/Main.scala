@@ -1,15 +1,19 @@
-import MyList.*
+package MyList
 import scala.collection.mutable.StringBuilder
+import scala.collection.mutable
+import scala.util.control.TailCalls
+import scala.util.control.TailCalls.TailRec
+
 
 enum MyList[+A]:
   case MyCons(h: A, t: MyList[A])
   case MyNil
 
   
-  def foldLeft[A,B](xs: MyList[A],z:B )(f:(A,B)=>B): B= {
+  def foldLeft[A,B](xs: MyList[A], z:B)(f: (A, B) => B): B = {
     @scala.annotation.tailrec
-    def go(xs: MyList[A],acc:B)(f:(A,B)=>B): B=  {
-      xs match{
+    def go(xs: MyList[A], acc:B)(f:(A,B)=>B): B=  {
+      xs match {
         case MyNil => acc
         case MyCons(hd, tl) => go(tl,f(hd, acc))(f)
       }
@@ -21,7 +25,7 @@ enum MyList[+A]:
   def map[B](f: A => B): MyList[B] = {
     @scala.annotation.tailrec
     def go[A,B](xs: MyList[A], f: A => B, result: MyList[B] = MyNil): MyList[B] = {
-      xs match{
+      xs match {
         case MyNil => result.reverse()
         case MyCons(hd, tl) => go(tl, f, MyCons(f(hd), result))
       }
@@ -35,7 +39,7 @@ enum MyList[+A]:
   def reverse(): MyList[A] = {
     @scala.annotation.tailrec
     def go[A](xs: MyList[A], result: MyList[A] = MyNil): MyList[A] = {
-      xs match{
+      xs match {
         case MyNil=> result
         case MyCons(hd, tl) => go(tl, MyCons(hd, result))
       }
@@ -47,7 +51,7 @@ enum MyList[+A]:
   def filter(f: A => Boolean): MyList[A] = {
       @scala.annotation.tailrec
       def go[A](xs: MyList[A], f: A => Boolean, result: MyList[A] = MyNil): MyList[A] = {
-        xs match{
+        xs match {
           case MyNil => result.reverse()
           case MyCons(hd, tl) => if f(hd) then go(tl, f, MyCons(hd, result)) else go(tl, f, result) 
         }
@@ -64,7 +68,7 @@ enum MyList[+A]:
       xs match {
         case MyNil => None
         case MyCons(hd, tl) =>
-          if hd == a then Some(index)
+          if hd == a then Some(index + 1)
           else go(tl, a, index + 1)
       }
     }
@@ -72,18 +76,17 @@ enum MyList[+A]:
   }
 
 
-  def reduce(f: (A, A) => A): Option[A] = {
+  /*def reduce(f: (A, A) => A): Option[A] = {
     @scala.annotation.tailrec
       def go[A](xs: MyList[A], f: (A, A) => A, result: Option[A] = None): Option[A] = {
         xs match {
           case MyNil => result
           case MyCons(hd, tl) => go(tl, f, Some(f(hd, result.getOrElse(hd))) ) 
         }
-
       }
       go(this, f)
 
-  }
+  }*/
 
 
   override def toString: String =
@@ -110,10 +113,10 @@ object MyList:
     xs.foldRight(MyNil: MyList[A]) { case (x, acc) => MyCons(x, acc) }
 
 @main def main() = {
-  println(MyList(1,2,3,4,5).indexOf(3))
-  println(MyList(1,2,3,4,5).reverse())
+  //println(MyList(1,2,3,4,5).foldLeft)
   println(MyList(1,2,3,4,5).map(a => a + 1))
+  println(MyList(1,2,3,4,5).reverse())
   println(MyList(1,2,3,4,5).filter(a => a < 4))
-  println(List(1,2).reduce)
-
+  println(MyList(1,2,3,4,5).indexOf(3))
+  //println(List(1,2).reduce)
 }

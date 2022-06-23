@@ -221,3 +221,833 @@ Caused by: java.lang.InterruptedException
 2022.06.23 17:57:45 INFO  time: compiled root in 0.38s[0m
 2022.06.23 17:58:31 INFO  compiling root (1 scala source)[0m
 2022.06.23 17:58:31 INFO  time: compiled root in 0.24s[0m
+2022.06.23 19:05:02 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:05:02 INFO  time: compiled root in 0.37s[0m
+2022.06.23 19:05:11 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:05:11 INFO  time: compiled root in 0.13s[0m
+2022.06.23 19:05:17 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:05:17 INFO  time: compiled root in 0.13s[0m
+2022.06.23 19:05:47 INFO  file:///home/yanov2708/dev/labbbb_1/src/main/scala/Main.scala:79:14: stale bloop error: covariant type A occurs in contravariant position in type (A, A) => A of parameter f
+  def reduce(f: (A, A) => A): Option[A] = {
+             ^^^^^^^^^^^^^^[0m
+2022.06.23 19:05:47 INFO  file:///home/yanov2708/dev/labbbb_1/src/main/scala/Main.scala:79:14: stale bloop error: covariant type A occurs in contravariant position in type (A, A) => A of parameter f
+  def reduce(f: (A, A) => A): Option[A] = {
+             ^^^^^^^^^^^^^^[0m
+2022.06.23 19:05:49 INFO  file:///home/yanov2708/dev/labbbb_1/src/main/scala/Main.scala:79:14: stale bloop error: covariant type A occurs in contravariant position in type (A, A) => A of parameter f
+  def reduce(f: (A, A) => A): Option[A] = {
+             ^^^^^^^^^^^^^^[0m
+2022.06.23 19:05:49 INFO  file:///home/yanov2708/dev/labbbb_1/src/main/scala/Main.scala:79:14: stale bloop error: covariant type A occurs in contravariant position in type (A, A) => A of parameter f
+  def reduce(f: (A, A) => A): Option[A] = {
+             ^^^^^^^^^^^^^^[0m
+2022.06.23 19:06:04 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:06:04 INFO  time: compiled root in 0.76s[0m
+2022.06.23 19:12:29 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:12:29 INFO  time: compiled root in 0.55s[0m
+2022.06.23 19:12:39 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:12:39 INFO  time: compiled root in 0.2s[0m
+2022.06.23 19:12:54 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:12:54 INFO  time: compiled root in 0.48s[0m
+2022.06.23 19:16:37 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:16:37 INFO  time: compiled root in 0.41s[0m
+2022.06.23 19:16:46 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:16:46 INFO  time: compiled root in 0.18s[0m
+2022.06.23 19:16:52 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:16:52 INFO  time: compiled root in 0.48s[0m
+2022.06.23 19:37:03 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:37:03 INFO  time: compiled root-test in 93ms[0m
+2022.06.23 19:38:45 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 19:38:45 WARN  Expression evaluation will not work.[0m
+2022.06.23 19:38:45 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 19:38:45 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:38:45 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 19:38:46 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 19:38:45 INFO  time: compiled root-test in 0.16s[0m
+2022.06.23 19:38:45 INFO  Trying to attach to remote debuggee VM localhost:43449 .[0m
+2022.06.23 19:38:45 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 19:38:46 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 19:38:46 INFO  Closing debug server tcp://0.0.0.0:33687[0m
+Jun 23, 2022 7:38:46 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:146)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2022.06.23 19:42:41 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:42:41 INFO  time: compiled root in 0.37s[0m
+Jun 23, 2022 7:42:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:841)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:368)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1844)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.23 19:42:59 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:42:59 INFO  time: compiled root in 0.37s[0m
+Jun 23, 2022 7:43:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+java.util.concurrent.CompletionException: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:686)
+	at java.util.concurrent.CompletableFuture.thenAcceptAsync(CompletableFuture.java:2014)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.thenAccept(FutureConvertersImpl.scala:37)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:279)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$: Cannot run class, since the workspace has errors.
+	at scala.meta.internal.metals.debug.DebugProvider$WorkspaceErrorsException$.<clinit>(DebugProvider.scala:841)
+	at scala.meta.internal.metals.debug.DebugProvider.ensureNoWorkspaceErrors(DebugProvider.scala:368)
+	at scala.meta.internal.metals.MetalsLanguageServer.executeCommand(MetalsLanguageServer.scala:1844)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	... 9 more
+
+2022.06.23 19:43:04 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:43:04 INFO  time: compiled root in 0.27s[0m
+Jun 23, 2022 7:45:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5110
+2022.06.23 19:45:34 INFO  compiling root (1 scala source)[0m
+2022.06.23 19:45:34 INFO  time: compiled root in 0.41s[0m
+2022.06.23 19:45:40 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:45:40 INFO  time: compiled root-test in 81ms[0m
+2022.06.23 19:45:40 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 19:45:40 WARN  Expression evaluation will not work.[0m
+2022.06.23 19:45:40 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 19:45:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 19:45:40 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 19:45:40 INFO  Trying to attach to remote debuggee VM localhost:45841 .[0m
+2022.06.23 19:45:40 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 19:45:40 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 19:45:40 INFO  Closing debug server tcp://0.0.0.0:45181[0m
+2022.06.23 19:45:52 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:10:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: 
+  ((MyList.MyList[Any], Any) => ((Any, Any) => Any) => Any)
+ <:< MyList.MyList[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 19:45:52 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:10:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: 
+  ((MyList.MyList[Any], Any) => ((Any, Any) => Any) => Any)
+ <:< MyList.MyList[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 19:45:54 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:10:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: 
+  ((MyList.MyList[Any], Any) => ((Any, Any) => Any) => Any)
+ <:< MyList.MyList[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 19:45:54 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:10:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: 
+  ((MyList.MyList[Any], Any) => ((Any, Any) => Any) => Any)
+ <:< MyList.MyList[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 19:46:15 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:10:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: 
+  ((MyList.MyList[Any], Any) => ((Any, Any) => Any) => Any)
+ <:< MyList.MyList[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 19:46:15 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:10:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: 
+  ((MyList.MyList[Any], Any) => ((Any, Any) => Any) => Any)
+ <:< MyList.MyList[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 19:46:24 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:10:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: 
+  ((MyList.MyList[Any], Any) => ((Any, Any) => Any) => Any)
+ <:< MyList.MyList[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 19:46:24 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:10:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: 
+  ((MyList.MyList[Any], Any) => ((Any, Any) => Any) => Any)
+ <:< MyList.MyList[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 19:48:58 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:48:58 INFO  time: compiled root-test in 98ms[0m
+2022.06.23 19:49:42 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:49:42 INFO  time: compiled root-test in 85ms[0m
+2022.06.23 19:49:42 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:49:42 INFO  time: compiled root-test in 87ms[0m
+2022.06.23 19:50:09 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:50:09 INFO  time: compiled root-test in 0.47s[0m
+2022.06.23 19:50:22 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:50:22 INFO  time: compiled root-test in 63ms[0m
+2022.06.23 19:50:38 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:50:38 INFO  time: compiled root-test in 0.19s[0m
+2022.06.23 19:50:59 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 19:50:59 INFO  time: compiled root-test in 0.18s[0m
+2022.06.23 19:51:10 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 3h 5m 21.458s)[0m
+2022.06.23 19:51:10 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 19:51:10 WARN  Expression evaluation will not work.[0m
+2022.06.23 19:51:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 19:51:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 19:51:10 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 19:51:10 INFO  Trying to attach to remote debuggee VM localhost:42861 .[0m
+2022.06.23 19:51:10 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 19:51:10 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 19:51:10 INFO  Closing debug server tcp://0.0.0.0:40053[0m
+2022.06.23 19:51:58 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 3h 6m 9.831s)[0m
+2022.06.23 19:51:58 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 19:51:58 WARN  Expression evaluation will not work.[0m
+2022.06.23 19:51:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 19:51:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 19:51:59 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 19:51:58 INFO  Trying to attach to remote debuggee VM localhost:38219 .[0m
+2022.06.23 19:51:58 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 19:51:59 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 19:51:58 INFO  Closing debug server tcp://0.0.0.0:35091[0m
+2022.06.23 19:52:00 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 3h 6m 11.43s)[0m
+2022.06.23 19:52:00 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 19:52:00 WARN  Expression evaluation will not work.[0m
+2022.06.23 19:52:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 19:52:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 19:52:00 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 19:52:00 INFO  Trying to attach to remote debuggee VM localhost:39073 .[0m
+2022.06.23 19:52:00 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 19:52:00 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 19:52:00 INFO  Closing debug server tcp://0.0.0.0:41695[0m
+2022.06.23 21:55:08 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 9m 19.556s)[0m
+2022.06.23 21:55:08 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 21:55:08 WARN  Expression evaluation will not work.[0m
+2022.06.23 21:55:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 21:55:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 21:55:08 INFO  Starting debug proxy for [MySuite(map)][0m
+2022.06.23 21:55:08 INFO  Trying to attach to remote debuggee VM localhost:37963 .[0m
+2022.06.23 21:55:08 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 21:55:08 INFO  Canceling debug proxy for [MySuite(map)][0m
+2022.06.23 21:55:09 INFO  Closing debug server tcp://0.0.0.0:41075[0m
+2022.06.23 21:55:42 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 9m 53.404s)[0m
+2022.06.23 21:55:42 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 9m 53.418s)[0m
+2022.06.23 21:55:42 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 21:55:42 WARN  Expression evaluation will not work.[0m
+2022.06.23 21:55:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 21:55:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 21:55:42 INFO  Starting debug proxy for [MySuite(map)][0m
+2022.06.23 21:55:42 INFO  Trying to attach to remote debuggee VM localhost:36779 .[0m
+2022.06.23 21:55:42 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 21:55:42 INFO  Canceling debug proxy for [MySuite(map)][0m
+2022.06.23 21:55:43 INFO  Closing debug server tcp://0.0.0.0:39221[0m
+2022.06.23 21:56:57 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 11m 8.794s)[0m
+2022.06.23 21:56:57 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 11m 8.822s)[0m
+2022.06.23 21:56:57 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 21:56:57 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 21:56:57 INFO  time: compiled root-test in 0.23s[0m
+2022.06.23 21:56:57 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 21:56:57 WARN  Expression evaluation will not work.[0m
+2022.06.23 21:56:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 21:56:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 21:56:58 INFO  Starting debug proxy for [MySuite(map)][0m
+2022.06.23 21:56:57 INFO  Trying to attach to remote debuggee VM localhost:41585 .[0m
+2022.06.23 21:56:57 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 21:56:58 INFO  Canceling debug proxy for [MySuite(map)][0m
+2022.06.23 21:56:58 INFO  Closing debug server tcp://0.0.0.0:40015[0m
+2022.06.23 21:57:15 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 11m 27.006s)[0m
+2022.06.23 21:57:15 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 11m 27.021s)[0m
+2022.06.23 21:57:15 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 21:57:15 WARN  Expression evaluation will not work.[0m
+2022.06.23 21:57:15 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 21:57:15 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 21:57:16 INFO  Starting debug proxy for [MySuite(reverse)][0m
+2022.06.23 21:57:15 INFO  Trying to attach to remote debuggee VM localhost:39011 .[0m
+2022.06.23 21:57:15 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 21:57:16 INFO  Canceling debug proxy for [MySuite(reverse)][0m
+2022.06.23 21:57:15 INFO  Closing debug server tcp://0.0.0.0:36219[0m
+2022.06.23 21:57:21 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 11m 32.306s)[0m
+2022.06.23 21:57:21 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 11m 32.315s)[0m
+2022.06.23 21:57:21 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 21:57:21 WARN  Expression evaluation will not work.[0m
+2022.06.23 21:57:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 21:57:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 21:57:21 INFO  Starting debug proxy for [MySuite()][0m
+2022.06.23 21:57:21 INFO  Trying to attach to remote debuggee VM localhost:36697 .[0m
+2022.06.23 21:57:21 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 21:57:21 INFO  Canceling debug proxy for [MySuite()][0m
+2022.06.23 21:57:21 INFO  Closing debug server tcp://0.0.0.0:37481[0m
+2022.06.23 21:59:28 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 13m 39.351s)[0m
+2022.06.23 21:59:28 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 13m 39.366s)[0m
+2022.06.23 21:59:28 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 21:59:28 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 21:59:28 INFO  time: compiled root-test in 0.19s[0m
+2022.06.23 21:59:28 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 21:59:28 WARN  Expression evaluation will not work.[0m
+2022.06.23 21:59:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 21:59:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 21:59:28 INFO  Starting debug proxy for [MySuite(reverse)][0m
+2022.06.23 21:59:28 INFO  Trying to attach to remote debuggee VM localhost:43019 .[0m
+2022.06.23 21:59:28 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 21:59:28 INFO  Canceling debug proxy for [MySuite(reverse)][0m
+2022.06.23 21:59:29 INFO  Closing debug server tcp://0.0.0.0:45837[0m
+2022.06.23 22:02:38 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 16m 49.284s)[0m
+2022.06.23 22:02:38 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 16m 49.298s)[0m
+2022.06.23 22:02:38 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:38 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:38 INFO  time: compiled root-test in 0.15s[0m
+2022.06.23 22:02:38 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:38 INFO  time: compiled root-test in 0.13s[0m
+Jun 23, 2022 10:02:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+
+2022.06.23 22:02:45 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 16m 56.71s)[0m
+2022.06.23 22:02:45 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 16m 56.721s)[0m
+2022.06.23 22:02:45 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:45 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:45 INFO  time: compiled root-test in 82ms[0m
+2022.06.23 22:02:45 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:45 INFO  time: compiled root-test in 83ms[0m
+Jun 23, 2022 10:02:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+
+2022.06.23 22:02:48 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 17m 0.077s)[0m
+2022.06.23 22:02:48 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 17m 0.085s)[0m
+2022.06.23 22:02:48 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:48 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:48 INFO  time: compiled root-test in 72ms[0m
+2022.06.23 22:02:48 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:02:48 INFO  time: compiled root-test in 71ms[0m
+Jun 23, 2022 10:02:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+
+2022.06.23 22:03:03 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:03:03 INFO  time: compiled root-test in 99ms[0m
+2022.06.23 22:03:03 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:03:03 INFO  time: compiled root-test in 0.14s[0m
+2022.06.23 22:03:03 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:03:03 INFO  time: compiled root-test in 0.11s[0m
+2022.06.23 22:03:21 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 17m 32.844s)[0m
+2022.06.23 22:03:21 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 17m 32.852s)[0m
+2022.06.23 22:03:21 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:03:21 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:03:21 INFO  time: compiled root-test in 0.19s[0m
+2022.06.23 22:03:21 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:03:21 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:03:22 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:03:22 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:03:22 INFO  Starting debug proxy for [MySuite(filter)][0m
+2022.06.23 22:03:21 INFO  Trying to attach to remote debuggee VM localhost:36059 .[0m
+2022.06.23 22:03:21 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:03:22 INFO  Closing debug server tcp://0.0.0.0:33563[0m
+2022.06.23 22:03:22 INFO  Canceling debug proxy for [MySuite(filter)][0m
+2022.06.23 22:03:30 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 17m 41.84s)[0m
+2022.06.23 22:03:30 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:03:30 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 17m 41.855s)[0m
+2022.06.23 22:03:30 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:03:30 INFO  time: compiled root-test in 0.18s[0m
+2022.06.23 22:03:30 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:03:30 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:03:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:03:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:03:31 INFO  Starting debug proxy for [MySuite(filter)][0m
+2022.06.23 22:03:30 INFO  Trying to attach to remote debuggee VM localhost:36119 .[0m
+2022.06.23 22:03:30 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:03:31 INFO  Canceling debug proxy for [MySuite(filter)][0m
+2022.06.23 22:03:31 INFO  Closing debug server tcp://0.0.0.0:38709[0m
+2022.06.23 22:04:06 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 18m 17.724s)[0m
+2022.06.23 22:04:06 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:04:06 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 18m 17.741s)[0m
+2022.06.23 22:04:06 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:04:06 INFO  time: compiled root-test in 0.2s[0m
+2022.06.23 22:04:06 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:04:06 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:04:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:04:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:04:07 INFO  Starting debug proxy for [MySuite(filter)][0m
+2022.06.23 22:04:06 INFO  Trying to attach to remote debuggee VM localhost:36343 .[0m
+2022.06.23 22:04:06 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:04:07 INFO  Canceling debug proxy for [MySuite(filter)][0m
+2022.06.23 22:04:07 INFO  Closing debug server tcp://0.0.0.0:35589[0m
+2022.06.23 22:05:18 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:05:18 INFO  time: compiled root-test in 73ms[0m
+2022.06.23 22:05:30 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:05:30 INFO  time: compiled root-test in 80ms[0m
+2022.06.23 22:08:56 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:08:56 INFO  time: compiled root in 0.4s[0m
+2022.06.23 22:09:17 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:09:17 INFO  time: compiled root in 0.41s[0m
+Jun 23, 2022 10:09:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6217
+2022.06.23 22:09:28 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:09:28 INFO  time: compiled root in 0.46s[0m
+2022.06.23 22:09:34 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:09:34 INFO  time: compiled root in 0.38s[0m
+2022.06.23 22:10:04 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:10:04 INFO  time: compiled root in 0.41s[0m
+2022.06.23 22:10:08 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:10:08 INFO  time: compiled root in 0.44s[0m
+2022.06.23 22:10:15 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:10:15 INFO  time: compiled root in 0.34s[0m
+2022.06.23 22:10:28 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:10:28 INFO  time: compiled root in 0.49s[0m
+2022.06.23 22:10:34 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:10:34 INFO  time: compiled root in 0.37s[0m
+2022.06.23 22:10:58 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:10:58 INFO  time: compiled root in 0.46s[0m
+2022.06.23 22:11:48 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:11:48 INFO  time: compiled root-test in 77ms[0m
+2022.06.23 22:11:58 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:11:58 INFO  time: compiled root-test in 73ms[0m
+2022.06.23 22:13:23 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:13:23 INFO  time: compiled root-test in 74ms[0m
+2022.06.23 22:13:25 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:13:25 INFO  time: compiled root-test in 67ms[0m
+2022.06.23 22:16:33 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 30m 45.166s)[0m
+2022.06.23 22:16:33 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:16:33 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:16:33 INFO  time: compiled root in 0.43s[0m
+2022.06.23 22:16:33 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 30m 45.63s)[0m
+2022.06.23 22:16:33 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:16:33 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:16:33 INFO  time: compiled root-test in 90ms[0m
+2022.06.23 22:16:33 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 30m 45.776s)[0m
+2022.06.23 22:16:33 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:16:33 INFO  time: compiled root-test in 91ms[0m
+Jun 23, 2022 10:16:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+
+2022.06.23 22:17:49 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:17:49 INFO  time: compiled root-test in 84ms[0m
+2022.06.23 22:19:28 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:19:28 INFO  time: compiled root-test in 72ms[0m
+2022.06.23 22:20:30 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:20:30 INFO  time: compiled root-test in 86ms[0m
+2022.06.23 22:20:32 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:20:32 INFO  time: compiled root-test in 71ms[0m
+2022.06.23 22:22:00 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:22:00 INFO  time: compiled root-test in 71ms[0m
+2022.06.23 22:22:30 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:22:30 INFO  time: compiled root in 0.37s[0m
+2022.06.23 22:22:49 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:22:49 INFO  time: compiled root in 0.34s[0m
+2022.06.23 22:23:00 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:23:00 INFO  time: compiled root in 0.44s[0m
+2022.06.23 22:23:33 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:23:33 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 37m 44.697s)[0m
+2022.06.23 22:23:33 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:23:33 INFO  time: compiled root in 0.29s[0m
+2022.06.23 22:23:33 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:23:33 INFO  time: compiled root-test in 94ms[0m
+2022.06.23 22:23:33 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:23:33 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:23:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:23:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:23:34 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 22:23:34 INFO  Trying to attach to remote debuggee VM localhost:42301 .[0m
+2022.06.23 22:23:34 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:23:34 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 22:23:34 INFO  Closing debug server tcp://0.0.0.0:46839[0m
+2022.06.23 22:25:50 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:25:50 INFO  time: compiled root-test in 69ms[0m
+2022.06.23 22:39:02 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 53m 13.677s)[0m
+2022.06.23 22:39:02 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:39:02 INFO  compiling root (1 scala source)[0m
+2022.06.23 22:39:02 INFO  time: compiled root in 0.35s[0m
+2022.06.23 22:39:02 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:39:02 INFO  time: compiled root-test in 90ms[0m
+2022.06.23 22:39:02 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:39:02 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:39:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:39:02 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:39:03 INFO  time: compiled root-test in 0.11s[0m
+2022.06.23 22:39:03 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:39:03 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 22:39:03 INFO  Trying to attach to remote debuggee VM localhost:37285 .[0m
+2022.06.23 22:39:03 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:39:03 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 22:39:03 INFO  Closing debug server tcp://0.0.0.0:43397[0m
+2022.06.23 22:40:11 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 54m 22.687s)[0m
+2022.06.23 22:40:11 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:11 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 54m 22.709s)[0m
+2022.06.23 22:40:11 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:11 INFO  time: compiled root-test in 74ms[0m
+2022.06.23 22:40:11 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:11 INFO  time: compiled root-test in 67ms[0m
+Jun 23, 2022 10:40:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+
+2022.06.23 22:40:18 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 54m 29.857s)[0m
+2022.06.23 22:40:18 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 54m 29.864s)[0m
+2022.06.23 22:40:18 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:18 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:18 INFO  time: compiled root-test in 62ms[0m
+2022.06.23 22:40:18 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:18 INFO  time: compiled root-test in 63ms[0m
+Jun 23, 2022 10:40:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+
+2022.06.23 22:40:29 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:29 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 54m 40.947s)[0m
+2022.06.23 22:40:29 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:29 INFO  time: compiled root-test in 69ms[0m
+2022.06.23 22:40:29 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:40:29 INFO  time: compiled root-test in 71ms[0m
+Jun 23, 2022 10:40:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: DebugSessionAddress.  Compilation not successful
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	... 3 more
+
+2022.06.23 22:40:47 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:35:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: Option[Int] <:< Some[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 22:40:47 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:35:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: Option[Int] <:< Some[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 22:40:48 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:35:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: Option[Int] <:< Some[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 22:40:48 INFO  file:///home/yanov2708/dev/labbbb_1/src/test/scala/MySuite.scala:35:5: stale bloop error: missing argument for parameter ev of method assertEquals in trait Assertions: (implicit loc: munit.Location, ev: Option[Int] <:< Some[Int]): Unit
+    assertEquals(obtained, expected)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.06.23 22:41:32 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:41:32 INFO  time: compiled root-test in 0.15s[0m
+2022.06.23 22:41:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 55m 48.374s)[0m
+2022.06.23 22:41:37 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 55m 48.38s)[0m
+2022.06.23 22:41:37 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:41:37 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:41:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:41:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:41:37 INFO  Starting debug proxy for [MySuite(reverse)][0m
+2022.06.23 22:41:37 INFO  Trying to attach to remote debuggee VM localhost:43677 .[0m
+2022.06.23 22:41:37 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:41:37 INFO  Canceling debug proxy for [MySuite(reverse)][0m
+2022.06.23 22:41:38 INFO  Closing debug server tcp://0.0.0.0:34859[0m
+2022.06.23 22:42:38 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 56m 49.873s)[0m
+2022.06.23 22:42:38 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:42:38 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 56m 49.882s)[0m
+2022.06.23 22:42:38 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:42:38 INFO  time: compiled root-test in 0.16s[0m
+2022.06.23 22:42:38 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:42:38 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:42:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:42:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:42:39 INFO  Starting debug proxy for [MySuite(reverse)][0m
+2022.06.23 22:42:38 INFO  Trying to attach to remote debuggee VM localhost:39109 .[0m
+2022.06.23 22:42:38 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:42:39 INFO  Canceling debug proxy for [MySuite(reverse)][0m
+2022.06.23 22:42:39 INFO  Closing debug server tcp://0.0.0.0:38767[0m
+2022.06.23 22:42:46 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 5h 56m 57.838s)[0m
+2022.06.23 22:42:46 INFO  Deduplicating compilation of root-test from bsp client 'Metals 0.11.6' (since 5h 56m 57.844s)[0m
+2022.06.23 22:42:46 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:42:46 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:42:46 INFO  time: compiled root-test in 0.18s[0m
+2022.06.23 22:42:46 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:42:46 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:42:46 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:42:46 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:42:47 INFO  Starting debug proxy for [MySuite(reverseNONE)][0m
+2022.06.23 22:42:46 INFO  Trying to attach to remote debuggee VM localhost:36363 .[0m
+2022.06.23 22:42:46 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:42:47 INFO  Canceling debug proxy for [MySuite(reverseNONE)][0m
+2022.06.23 22:42:47 INFO  Closing debug server tcp://0.0.0.0:42037[0m
+2022.06.23 22:43:46 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:43:46 INFO  time: compiled root-test in 68ms[0m
+2022.06.23 22:46:05 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 6h 17.032s)[0m
+2022.06.23 22:46:05 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:46:05 INFO  time: compiled root-test in 61ms[0m
+2022.06.23 22:46:05 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:46:05 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:46:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:46:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:46:06 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 22:46:05 INFO  Trying to attach to remote debuggee VM localhost:43729 .[0m
+2022.06.23 22:46:05 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:46:06 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 22:46:05 INFO  Closing debug server tcp://0.0.0.0:42319[0m
+2022.06.23 22:49:46 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 6h 3m 58.011s)[0m
+2022.06.23 22:49:46 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:49:46 INFO  time: compiled root-test in 59ms[0m
+2022.06.23 22:49:46 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:49:46 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:49:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:49:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:49:47 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 22:49:46 INFO  Trying to attach to remote debuggee VM localhost:38333 .[0m
+2022.06.23 22:49:46 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:49:47 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 22:49:46 INFO  Closing debug server tcp://0.0.0.0:45861[0m
+2022.06.23 22:54:19 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.6' (since 6h 8m 30.617s)[0m
+2022.06.23 22:54:19 INFO  compiling root-test (1 scala source)[0m
+2022.06.23 22:54:19 INFO  time: compiled root-test in 85ms[0m
+2022.06.23 22:54:19 WARN  Error downloading ch.epfl.scala:scala-expression-compiler_3.1.3:2.2.0-M1
+  not found: /home/yanov2708/.ivy2/local/ch.epfl.scala/scala-expression-compiler_3.1.3/2.2.0-M1/ivys/ivy.xml
+  not found: https://repo1.maven.org/maven2/ch/epfl/scala/scala-expression-compiler_3.1.3/2.2.0-M1/scala-expression-compiler_3.1.3-2.2.0-M1.pom[0m
+2022.06.23 22:54:19 WARN  Expression evaluation will not work.[0m
+2022.06.23 22:54:19 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-server.trace.json or /home/yanov2708/.cache/metals/dap-server.trace.json[0m
+2022.06.23 22:54:19 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/yanov2708/dev/labbbb_1/.metals/dap-client.trace.json or /home/yanov2708/.cache/metals/dap-client.trace.json[0m
+2022.06.23 22:54:19 INFO  Starting debug proxy for [MyList.main][0m
+2022.06.23 22:54:19 INFO  Trying to attach to remote debuggee VM localhost:36085 .[0m
+2022.06.23 22:54:19 INFO  Attaching to debuggee VM succeeded.[0m
+2022.06.23 22:54:19 INFO  Canceling debug proxy for [MyList.main][0m
+2022.06.23 22:54:19 INFO  Closing debug server tcp://0.0.0.0:40041[0m
