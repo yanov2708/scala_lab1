@@ -68,7 +68,7 @@ enum MyList[+A]:
       xs match {
         case MyNil => None
         case MyCons(hd, tl) =>
-          if hd == a then Some(index + 1)
+          if hd == a then Some(index)
           else go(tl, a, index + 1)
       }
     }

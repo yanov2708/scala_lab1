@@ -6,32 +6,37 @@ import munit.FunSuite
 class MySuite extends FunSuite {
 
   test("map") {
-    val obtained = MyList.of(11, 12, 13, 14, 15)
-    val expected = MyList.of(1, 2, 3, 4, 5).map(a => a + 10)
+    val expected = MyList(1, 2, 3, 4, 5).map(a => a + 10)
+    val obtained = MyList(11, 12, 13, 14, 15)
     assertEquals(obtained, expected)
   }
   
   test("reverse") {
-    val obtained = MyList.of(5, 4, 3, 2, 1)
-    val actual = MyList.of(1, 2, 3, 4, 5).reverse()
-    assertEquals(obtained, actual)
+    val expected = MyList(1, 2, 3, 4, 5).reverse()
+    val obtained = MyList(5, 4, 3, 2, 1)
+    assertEquals(obtained, expected)
   }
 
   test("reverseClearList") {
-    val obtained = MyList.of()
-    val actual = MyList.of().reverse()
-    assertEquals(obtained, actual)
+    val expected = MyList().reverse()
+    val obtained = MyList()
+    assertEquals(obtained, expected)
   }
 
   test("filter") {
-    val obtained = MyList.of(1, 2)
-    val expected = MyList.of(1, 2, 3, 4, 5).filter(a => a < 3)
+    val expected = MyList(1, 2, 3, 4, 5).filter(a => a < 3)
+    val obtained = MyList(1, 2)
     assertEquals(obtained, expected)
   }
  
   test("indexOf") {
-    val obtained = Some(3)
-    val expected = MyList.of(1, 2, 3, 4, 5).indexOf(3)
+    val expected = MyList(1, 2, 3, 4, 5).indexOf(3)
+    val obtained = Some(2)
+    assertEquals(obtained.get, expected.get)
+  }
+  test("indexOf11") {
+    val expected = MyList(1, 2, 3, 4, 5).indexOf(6)
+    val obtained = None
     assertEquals(obtained, expected)
   }
 }
