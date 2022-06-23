@@ -1,4 +1,4 @@
- Lab_1_FP_1variant
+Lab_1_FP_1variant
  
 List[A]
 foldLeft
