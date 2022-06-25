@@ -10,12 +10,12 @@ enum MyList[+A]:
   case MyNil
 
   
-  def foldLeft[A,B](xs: MyList[A], z:B)(f: (A, B) => B): B = {
+  def foldLeft[A,B](xs: MyList[A], z: B)(f: (A, B) => B): B = {
     @scala.annotation.tailrec
-    def go(xs: MyList[A], acc:B)(f:(A,B)=>B): B=  {
+    def go(xs: MyList[A], acc: B)(f: (A, B) => B): B =  {
       xs match {
         case MyNil => acc
-        case MyCons(hd, tl) => go(tl,f(hd, acc))(f)
+        case MyCons(hd, tl) => go(tl, f(hd, acc))(f)
       }
     }
     go(xs, z)(f)
@@ -29,10 +29,8 @@ enum MyList[+A]:
         case MyNil => result.reverse()
         case MyCons(hd, tl) => go(tl, f, MyCons(f(hd), result))
       }
-      
     }
     go(this, f)
-    
   }
   
   
