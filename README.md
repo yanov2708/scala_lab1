@@ -1,8 +1,17 @@
-## sbt project compiled with Scala 3
+Lab_1_FP_1variant
+ 
+List[A]
 
-### Usage
+foldLeft
 
-This is a normal sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+map(xs: List[A], f: A => B): List[B] (напряму рекурсивно ТА через foldLeft)
 
-For more information on the sbt-dotty plugin, see the
-[scala3-example-project](https://github.com/scala/scala3-example-project/blob/main/README.md).
+reverse(xs: List[A]): List[A] (напряму рекурсивно ТА через foldLeft)
+
+filter(xs: List[A], pred: A => Boolean): List[A] (аналогічно) (залишити тільки ті елементи, які задовольняють f)
+
+indexOf(xs: List[A], a: A): Option[Int]
+
+reduce(xs: List[A], f: (A, A) => A): Option[A] // чому Option? Треба буде дати відповідь    (option повертає обо нічого або щось, і якщо ліст пустий - повертаюмо Nil)
+
+
